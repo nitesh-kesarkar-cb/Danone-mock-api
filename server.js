@@ -14,7 +14,7 @@ app.post("/api/v1/user", function (req, res) {
 });
 
 //update user
-app.put("/api/v1/user/:id", function (req, res) {
+app.patch("/api/v1/user/:id", function (req, res) {
   console.log("/v1/updateUser");
   res.status(200).send({ message: "User updated successfully" });
 });

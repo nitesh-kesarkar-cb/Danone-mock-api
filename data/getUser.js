@@ -10,7 +10,7 @@ module.exports = () => {
     status: "Active",
     phoneNumber: "8444444444",
     jobTitle: "Software Engineer",
-    languagePreference: "English",
+    languagePreference: { id: "english", name: "English" },
     address: "123 Main St",
     city: "New York",
     postcode: "10001",
